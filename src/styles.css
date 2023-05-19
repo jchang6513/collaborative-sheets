@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+textarea {
+  background: black;
+  color: white;
+  /* border: none; */
+  border: 1px solid white;
+  padding: 16px;
+  outline: none;
+  font-size: 20px;
+  width: 100%;
+  flex: 1 0 0;
+  resize: none;
+  max-width: 800px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+form {
+  max-width: 800px;
+  width: 100%;
+  border: 1px solid white;
+  padding: 0 16px;
+
+  border-radius: 4px;
+}
+
+input {
+  background: black;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  width: 100%;
+  padding-left: 8px;
+  position: "relative";
+}
+
+input:before {
+  content: ">";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
